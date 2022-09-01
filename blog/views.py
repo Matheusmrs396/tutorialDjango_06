@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 # blog/views.py
-from django.views.generic import ListView, DetailView
+from django.views.generic import ListView,DetailView
 from .models import Post
 
 class BlogListView(ListView):
